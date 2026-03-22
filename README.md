@@ -5,6 +5,8 @@
 **Latest Version:** 1.0.3
 A Burp Suite extension that automatically redacts PII, credentials, and other sensitive data from HTTP traffic, enabling secure sharing of requests and responses in reports, team reviews, or AI workflows. 
 
+![Burp Anonymizer in action](BurpAnonymizerDemo.gif)
+
 ---
 
 ## Use Case Matrix
