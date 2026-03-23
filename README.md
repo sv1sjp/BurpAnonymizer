@@ -4,7 +4,7 @@
 **Author:** [Dimitris Vagiakakos](https://www.tuxhouse.eu) · [@sv1sjp](https://github.com/sv1sjp)
 **Latest Version:** 1.0.3
 
-A Burp Suite extension that automatically redacts PII, credentials, and other sensitive data from HTTP traffic, enabling secure sharing of requests and responses in reports, team reviews, or AI workflows. 
+A Burp Suite extension that redacts PII, credentials, and other sensitive data from HTTP traffic with one click, enabling secure sharing of requests and responses in reports, team reviews, or AI workflows.
 
 ![Burp Anonymizer in action](BurpAnonymizerDemo.gif)
 
