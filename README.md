@@ -3,6 +3,7 @@
 **License:** [GPL‑3.0‑only](LICENSE)  
 **Author:** [Dimitris Vagiakakos](https://www.tuxhouse.eu) · [@sv1sjp](https://github.com/sv1sjp)
 **Latest Version:** 1.0.3
+
 A Burp Suite extension that automatically redacts PII, credentials, and other sensitive data from HTTP traffic, enabling secure sharing of requests and responses in reports, team reviews, or AI workflows. 
 
 ![Burp Anonymizer in action](BurpAnonymizerDemo.gif)
@@ -52,12 +53,14 @@ The extension scans for these patterns across headers, bodies, query parameters,
 
 ## Installation
 
-1. **Build the JAR:**
+Option 1: Build the JAR from source
    ```bash
    ./build.sh     # Requires JDK 11+
-2. Load in Burp Suite:
+   ```
+Option 2: Use the prebuilt JAR
+* In both cases, install the JAR into Burp Suite:e:
    * Open Extender → Extensions → Add
-   * Select the built JAR file
+   * Select the JAR file
   
  ##  BApp Store? -> Soon :)
 ----
