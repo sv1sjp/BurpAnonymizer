@@ -58,8 +58,8 @@ Option 1: Build the JAR from source
    ./build.sh     # Requires JDK 11+
    ```
 Option 2: Use the prebuilt JAR
-* In both cases, install the JAR into Burp Suite:e:
-   * Open Extender → Extensions → Add
+* In both cases, install the JAR into Burp Suite:
+   * Open Extensions → Installed → Add
    * Select the JAR file
   
  ##  BApp Store? -> Soon :)
