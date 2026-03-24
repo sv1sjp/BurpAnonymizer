@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group = 'tuxhouse.eu'
+version = '1.0.3'
+
+description = 'A Burp Suite extension that redacts PII, credentials, and other sensitive data from HTTP traffic with one click, enabling secure sharing of requests and responses in reports, team reviews, or AI workflows.'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}
+
+jar {
+    archiveBaseName = 'BurpAnonymizer'
+    archiveVersion  = version
+    archiveClassifier = ''
+
+    manifest {
+        attributes(
+            'Implementation-Title':   'Burp Anonymizer',
+            'Implementation-Version': version,
+            'Implementation-Vendor':  'Dimitris Vagiakakos @sv1sjp'
+        )
+    }
+}
+
+// No external dependencies — Burp API interfaces are bundled in src/main/java/burp/
+repositories {
+    mavenCentral()
+}
